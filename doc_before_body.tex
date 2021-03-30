@@ -1,0 +1,198 @@
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%                         CAPA PRINCIPAL
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{titlepage}
+\begin{onehalfspace}
+
+
+\noindent{\large{}Dissertation presented to the Dean of Graduate Studies of the
+Technological Institute of Aeronautics, as part of the requirements for obtaining the
+Master of Science degree in the Graduate Program in Engineering of
+Aeronautical Infrastructure Aeronautical.\\}{\large}
+\vspace*{2cm}
+
+
+\begin{center}
+\textbf{\large{}Marcelo Saraiva Peres\\}{\large}
+\vspace*{2cm}
+
+  \textbf{\large{}Machine Learning Techniques Application for Installation Torque Prediction of Helical Piles\\}{\large}
+\vspace*{2cm}
+
+
+Dissertation approved in its preliminary version by the undersigned:\\
+
+\vspace*{2cm}
+                        Prof. Dr. Dimas Betioli Ribeiro\\
+                              Orientador\\
+\vspace*{1cm}
+
+                     Prof. Dr. Jos{\'e} Antonio Schiavon\\
+                           Coorientador \\
+\vspace*{1cm}
+
+                          Prof. Dr. Nome Completo\\
+                         Dean of Graduate Studies  \\
+
+\vfill
+Campo Montenegro\\
+São Jos{\'e} dos Campos, SP – Brasil\\
+2021
+
+\end{center}
+\end{onehalfspace}
+\end{titlepage}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%                         FOLHO DE ROSTO
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{titlepage}
+\begin{onehalfspace}
+\begin{center}
+
+\textbf{\large{} Machine Learning Techniques Application for Installation Torque Prediction of Helical Piles\\}{\large}
+
+\vspace*{4cm}
+
+\textbf{\large{}Marcelo Saraiva Peres\\}{\large}
+
+\end{center}
+\vspace*{10cm}
+
+\noindent %
+\begin{tabular}{lcl}
+Banca Examinadora: &  & \tabularnewline
+ &  & \tabularnewline
+Prof. Dr. xxxxx         & Presidente   & - ITA \tabularnewline
+Prof. Dr. xxxxx       & Orientador   & - ITA \tabularnewline
+Prof. Dr. xxxxx      & Coorientador & - ITA \tabularnewline
+Prof. Dr. xxxxx                 & Membro Interno              & - ITA\tabularnewline
+Prof. Dr. xxxxx                  &   Membro Externo           & - USP\tabularnewline
+\end{tabular}
+
+
+\vfill
+\begin{center}
+\textbf{\large{}ITA}
+\end{center}
+
+\end{onehalfspace}
+\end{titlepage}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%                                   LOGOTIPO
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%\cleardoublepage\newpage\thispagestyle{empty}\null
+%\begin{center}\includegraphics{images/logo_ITA.png}\end{center}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%                              AGRADECIMENTOS
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\cleardoublepage\newpage\pagenumbering{roman}
+\begin{center}
+\Large\textbf{Agradecimentos\\}
+\end{center}
+\vspace{5.0cm}
+\begin{onehalfspace}
+{To Cristina de Hollanda Cavalcanti Tsuha for making available the dataset used in this work and Bruno Oliveira da Silva for helping with data curation and the Coordination of Improvement of Higher Education Personnel (CAPES) for granting the first author’s scholarship.\\}
+\end{onehalfspace}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%                              FRASE
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\cleardoublepage\newpage
+\begin{flushright}
+\emph{If I have seen farther than others, it is because I stood on
+the shoulders of giants.}
+\end{flushright}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%                                    RESUMO
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\cleardoublepage\newpage
+\begin{center}
+\Large\textbf{Resumo\\}
+\end{center}
+\vspace{1.0cm}
+\begin{singlespace}
+\noindent{xxxxx.}
+\end{singlespace}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%                               ABSTRACT
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\cleardoublepage\newpage
+\begin{center}
+\Large\textbf{Abstract\\}
+\end{center}
+\vspace{1.0cm}
+\begin{singlespace}
+\noindent{Installation torque is a key parameter to define installation equipment and helical piles final depth; however, installation torque estimation is still a challenge. In this work, machine learning (ML) techniques are applied for helical piles installation torque prediction based on information from 707 helical piles installation reports, including SPT data. This information was used to build three datasets used by the eight machine learning techniques evaluated in this study. The input attributes include variables taken directly from the reports, and also other informative variables generated for the ML techniques. The relevance of each attribute was evaluated considering its correlation with others and its effective importance within the ML procedures. The performance in predicting torque was evaluated using classical statistical measures and the confidence interval concept. Cubist, random forest and boosting techniques showed the best performance in torque prediction and the best performing model (cubist) was used in a case study. The proposed approach shows potential to aid in the anchoring design and in the equipment choice for helical pile installation}
+\end{singlespace}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%                          Lista de Figuras
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\newpage
+\begin{center}\listoffigures\end{center}
+\newpage
+\begin{center}\listoftables\end{center}
+\newpage
+\begin{center}\tableofcontents\end{center}
+\newpage
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%                      Lista de Abreviaturas e Siglas
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{center}
+\Large\textbf{Lista de Abreviaturas e Siglas\\}
+\end{center}
+\vspace{1.0cm}
+\begin{doublespacing}
+\noindent{ CAPES: Coordination of Improvement of Higher Education Personnel\\
+}
+\end{doublespacing}
+\newpage
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%                           Lista de Símbolos
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{center}
+\Large\textbf{Lista de Símbolos\\}
+\end{center}
+\vspace{1.0cm}
+\begin{doublespacing}
+\noindent{
+  $\alpha$: alfa\\
+  $\beta$: Beta;\\
+  $\varepsilon$: varepsilon;\\
+  $\varphi$:varphi;}
+\end{doublespacing}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%                  Retorna a numeração formato arábico
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\newpage
+
+\pagenumbering{arabic}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
