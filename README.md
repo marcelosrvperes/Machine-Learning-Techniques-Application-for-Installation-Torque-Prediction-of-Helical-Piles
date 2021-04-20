@@ -8,7 +8,7 @@ In this way, this database trains ML models for torque prediction.
 
 - Some informations:
 
-This project is in the form of a manuscript, all the text, methodology, results and figures can be found here!
+This project is in the form of a manuscript. All the text, methodology, results and figures can be found here!
 
 The main executable file is: **Manuscript_github.Rmd**
 
@@ -33,9 +33,3 @@ The main database used is the file: **Bruto.csv**
 4.4 This procedure will generate a .pdf file in manuscript format.
 
 Processing can take time, if you want to see our results, our methodology, references and the explanatory text open the file: **itathesis.pdf**.
-
-
-
-
-
-
